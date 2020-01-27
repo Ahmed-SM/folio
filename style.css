@@ -21,7 +21,6 @@ nav {
   }
   .scrolled {
     background-color: #fff !important;
-    opacity: 0.9;
     transition: background-color 100ms linear;
   }
   .scrolled li {
@@ -542,4 +541,8 @@ nav {
       transform: translate(-50%, 0%);
     }
   }
-  
+  @supports  (-ms-ime-align:auto) {
+    .coffe{
+        display: none;
+    }
+}

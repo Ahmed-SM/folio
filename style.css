@@ -1,3 +1,11 @@
+html,
+body {
+  font-family: sans-serif;
+  position: relative;
+  margin: 0;
+  background: radial-gradient(white 10%, #dddddd 85%);
+  overflow-x: hidden;
+}
 nav {
     width: 100vw;
     position: fixed;

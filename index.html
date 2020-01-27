@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Angular</title>
+    <base href="/" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <nav class="topnav">
+        <h1 (click)="scroll(intro)" class="title">Ahmed-Saadawi</h1>
+        <ul id="myLinks">
+          <li (click)="scroll(main)"><h2>WORK</h2></li>
+          <li (click)="scroll(main2)"><h2>ABOUT</h2></li>
+        </ul>
+        <img
+          src="https://ya-webdesign.com/transparent250_/pharaoh-vector-black-and-white-15.png"
+          alt=""
+        />
+      </nav>
+      <div #intro class="main top">
+        <img src="../assets/imgs/hey.png" alt="" />
+      </div>
+      <div class="main left-top">
+        <h3 data-aos="fade-right" data-aos-duration="2000">Full Stack Developer</h3>
+        <h4 data-aos="fade-left" data-aos-duration="2000">
+          Highly passionate about programming languages and technologies, eager to
+          learn and discover new dimensions, flexible and adaptable to changes and
+          able to perform independently.
+        </h4>
+      </div>
+      
+      <div class="section">
+        <div #main class="main mid">
+          <div class="row" data-aos="zoom-out-right">
+            <div data-aos="zoom-in-up" class="column">
+              <h1>HR Application</h1>
+            </div>
+            <div class="column">
+              <img
+                tabindex="1"
+                src="../assets/imgs/scef/sc1114.JPG"
+                style="width:100%"
+              />
+            </div>
+            <div class="column">
+              <img
+                tabindex="2"
+                src="../assets/imgs/scef/sc1122.JPG"
+                style="width:100%"
+              />
+            </div>
+            <div class="column">
+              <img
+                tabindex="2"
+                src="../assets/imgs/scef/1122.JPG"
+                style="width:100%"
+              />
+            </div>
+            <div class="column">
+              <img
+                tabindex="2"
+                src="../assets/imgs/scef/sc1113.JPG"
+                style="width:100%"
+              />
+            </div>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="600" class="work-text">
+            <h4>A human resources application using Electron and ASP.NET Core 2</h4>
+          </div>
+        </div>
+        <div class="main mid">
+          <div class="row" data-aos="zoom-out-up">
+            <div data-aos="zoom-in-up" class="column">
+              <h1>Sequential Study Issuer</h1>
+            </div>
+            <div class="column">
+              <img
+                tabindex="3"
+                src="../assets/imgs/reports/nov2.jpg"
+                style="width:100%"
+              />
+            </div>
+            <div class="column">
+              <img
+                tabindex="4"
+                src="../assets/imgs/reports/nov2.jpg"
+                style="width:100%"
+              />
+            </div>
+            <div class="column">
+              <img
+                tabindex="4"
+                src="../assets/imgs/reports/nov2.jpg"
+                style="width:100%"
+              />
+            </div>
+            <div class="column">
+              <img
+                tabindex="4"
+                src="../assets/imgs/reports/nov.JPG"
+                style="width:100%"
+              />
+            </div>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="600" class="work-text">
+            <h4>
+              A Pure Javascript website that allows School's students to request their
+              sequential study certificate.
+            </h4>
+          </div>
+        </div>
+        <div class="main mid">
+          <div class="row" data-aos="zoom-out-down">
+            <div data-aos="zoom-in-up" class="column">
+              <h1>Assets Application</h1>
+            </div>
+            <div class="column">
+              <img
+                tabindex="5"
+                src="../assets/imgs/assets/Assets3.JPG"
+                style="width:100%"
+              />
+            </div>
+            <div class="column">
+              <img
+                tabindex="6"
+                src="../assets/imgs/assets/Aseets4.JPG"
+                style="width:100%"
+              />
+            </div>
+            <div class="column">
+              <img
+                tabindex="6"
+                src="../assets/imgs/assets/assest1.JPG"
+                style="width:100%"
+              />
+            </div>
+            <div class="column">
+              <img
+                tabindex="6"
+                src="../assets/imgs/assets/Assets2.JPG"
+                style="width:100%"
+              />
+            </div>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="600" class="work-text">
+            <h4>
+              A NoSQL application based on MongoDB Atlas and Electron that manages and
+              reports all the movements of the assets between the client’s branches.
+            </h4>
+          </div>
+        </div>
+        <div class="main mid" style="margin-bottom: 100px;">
+          <div class="row" data-aos="zoom-out-left">
+            <div data-aos="zoom-in-up" class="column">
+              <h1>Tuoring Application</h1>
+            </div>
+            <div class="column">
+              <img tabindex="8" src="../assets/imgs/tut/TUT.JPG" style="width:100%" />
+            </div>
+            <div class="column">
+              <img
+                tabindex="7"
+                src="../assets/imgs/tut/TUT1.JPG"
+                style="width:100%"
+              />
+            </div>
+            <div class="column">
+              <img
+                tabindex="7"
+                src="../assets/imgs/tut/TUT2.JPG"
+                style="width:100%"
+              />
+            </div>
+            <div class="column">
+              <img
+                tabindex="7"
+                src="../assets/imgs/tut/TUT3.JPG"
+                style="width:100%"
+              />
+            </div>
+          </div>
+          <div data-aos="fade-up" data-aos-duration="600" class="work-text">
+            <h4>
+              A ASP.NET Core web application, and a relational database to store a
+              peer tutoring sessions and list a printable reports.
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div #main2 class=" footer">
+        <div class="newspaper">
+          <h3>ABOUT ME</h3>
+          <div class="info">
+            <img
+              src="https://ya-webdesign.com/transparent250_/pharaoh-vector-black-and-white-15.png"
+              alt=""
+            />
+            <p>Ahmed Saadawi</p>
+            <p>Egyptian | 25 years old</p>
+            <p><code>Birth:</code> Abu Dhabi | <code>Lives:</code> Ras Al-Khaimah</p>
+          </div>
+          <h3>Bachelor of Science in Computer Science</h3>
+          <div class="writing">
+            <p>
+              Experience
+              <br />
+              Part-time Developer - Sheikh Saud Bin Saqr Charitable Educational
+              Establishment. 2019 - 2020
+            </p>
+            <p>
+              Education <br />
+              Bachelor of Science in Computer Science, American University of Ras Al
+              Khaimah. 2014 - 2019
+            </p>
+          </div>
+          <div class="writing-skill"><h3>Technical Skills</h3></div>
+          <div
+            data-aos="zoom-out-right"
+            data-aos-easing="ease-in-out"
+            data-aos-once="true"
+            class="skill"
+          >
+            <svg
+              id="svg01"
+              class="zero-percent"
+              x="0px"
+              y="0px"
+              width="142.924px"
+              height="142.924px"
+              viewBox="0 0 142.924 173.924"
+              enable-background="new 0 0 142.924 142.924"
+              xml:space="preserve"
+            >
+              <text x="-15" y="170" font-family="Raleway" font-size="22" fill="red">
+                Object Oriented
+              </text>
+              <text
+                x="43"
+                y="82"
+                font-family="Raleway"
+                font-size="35"
+                class="count hidden"
+                fill="white"
+              >
+                99%
+              </text>
+              <path
+                fill="none"
+                class="background"
+                stroke="#000000"
+                stroke-width="12"
+                stroke-miterlimit="14"
+                d="M71.462,13.129
+          c32.217,0,58.334,26.116,58.334,58.333s-26.117,58.334-58.334,58.334s-58.333-26.117-58.333-58.334S39.245,13.129,71.462,13.129"
+              />
+              <path
+                fill="none"
+                class="target"
+                stroke="white"
+                stroke-width="14"
+                stroke-miterlimit="14"
+                d="M71.462,13.129
+          c32.217,0,58.334,26.116,58.334,58.333s-26.117,58.334-58.334,58.334s-58.333-26.117-58.333-58.334S39.245,13.129,71.462,13.129"
+              />
+            </svg>
+      
+            <svg
+              id="svg02"
+              class="zero-percent"
+              x="0px"
+              y="0px"
+              width="142.924px"
+              height="142.924px"
+              viewBox="0 0 142.924 173.924"
+              enable-background="new 0 0 142.924 142.924"
+              xml:space="preserve"
+            >
+              <text x="10" y="170" font-family="Raleway" font-size="22" fill="red">
+                HTML/CSS
+              </text>
+              <text
+                x="43"
+                y="82"
+                font-family="Raleway"
+                font-size="35"
+                class="count hidden"
+                fill="white"
+              >
+                90%
+              </text>
+              <path
+                fill="none"
+                class="background"
+                stroke="#000000"
+                stroke-width="12"
+                stroke-miterlimit="14"
+                d="M71.462,13.129
+          c32.217,0,58.334,26.116,58.334,58.333s-26.117,58.334-58.334,58.334s-58.333-26.117-58.333-58.334S39.245,13.129,71.462,13.129"
+              />
+              <path
+                fill="none"
+                class="target"
+                stroke="white"
+                stroke-width="14"
+                stroke-miterlimit="14"
+                d="M71.462,13.129
+          c32.217,0,58.334,26.116,58.334,58.333s-26.117,58.334-58.334,58.334s-58.333-26.117-58.333-58.334S39.245,13.129,71.462,13.129"
+              />
+            </svg>
+      
+            <svg
+              id="svg03"
+              class="zero-percent"
+              x="0px"
+              y="0px"
+              width="145.924px"
+              height="142.924px"
+              viewBox="0 0 145.924 173.924"
+              enable-background="new 0 0 142.924 142.924"
+              xml:space="preserve"
+            >
+              <text x="-15" y="170" font-family="Raleway" font-size="22" fill="red">
+                ASP.NET WebAPI
+              </text>
+              <text
+                x="43"
+                y="82"
+                font-family="Raleway"
+                font-size="35"
+                class="count hidden"
+                fill="white"
+              >
+                90%
+              </text>
+              <path
+                fill="none"
+                class="background"
+                stroke="#000000"
+                stroke-width="12"
+                stroke-miterlimit="14"
+                d="M71.462,13.129
+          c32.217,0,58.334,26.116,58.334,58.333s-26.117,58.334-58.334,58.334s-58.333-26.117-58.333-58.334S39.245,13.129,71.462,13.129"
+              />
+              <path
+                fill="none"
+                class="target"
+                stroke="white"
+                stroke-width="14"
+                stroke-miterlimit="14"
+                d="M71.462,13.129
+          c32.217,0,58.334,26.116,58.334,58.333s-26.117,58.334-58.334,58.334s-58.333-26.117-58.333-58.334S39.245,13.129,71.462,13.129"
+              />
+            </svg>
+            <svg
+              id="svg04"
+              class="zero-percent"
+              x="0px"
+              y="0px"
+              width="142.924px"
+              height="142.924px"
+              viewBox="0 0 142.924 173.924"
+              enable-background="new 0 0 142.924 142.924"
+              xml:space="preserve"
+            >
+              <text x="2" y="170" font-family="Raleway" font-size="22" fill="red">
+                MS SQL / SQL
+              </text>
+              <text
+                x="43"
+                y="82"
+                font-family="Raleway"
+                font-size="35"
+                class="count hidden"
+                fill="white"
+              >
+                80%
+              </text>
+              <path
+                fill="none"
+                class="background"
+                stroke="#000000"
+                stroke-width="12"
+                stroke-miterlimit="14"
+                d="M71.462,13.129
+          c32.217,0,58.334,26.116,58.334,58.333s-26.117,58.334-58.334,58.334s-58.333-26.117-58.333-58.334S39.245,13.129,71.462,13.129"
+              />
+              <path
+                fill="none"
+                class="target"
+                stroke="white"
+                stroke-width="14"
+                stroke-miterlimit="14"
+                d="M71.462,13.129
+          c32.217,0,58.334,26.116,58.334,58.333s-26.117,58.334-58.334,58.334s-58.333-26.117-58.333-58.334S39.245,13.129,71.462,13.129"
+              />
+            </svg>
+            <svg
+              id="svg05"
+              class="zero-percent"
+              x="0px"
+              y="0px"
+              width="142.924px"
+              height="142.924px"
+              viewBox="0 0 142.924 173.924"
+              enable-background="new 0 0 142.924 142.924"
+              xml:space="preserve"
+            >
+              <text x="50" y="170" font-family="Raleway" font-size="22" fill="red">
+                ORM
+              </text>
+              <text
+                x="43"
+                y="82"
+                font-family="Raleway"
+                font-size="35"
+                class="count hidden"
+                fill="white"
+              >
+                80%
+              </text>
+              <path
+                fill="none"
+                class="background"
+                stroke="#000000"
+                stroke-width="12"
+                stroke-miterlimit="14"
+                d="M71.462,13.129
+          c32.217,0,58.334,26.116,58.334,58.333s-26.117,58.334-58.334,58.334s-58.333-26.117-58.333-58.334S39.245,13.129,71.462,13.129"
+              />
+              <path
+                fill="none"
+                class="target"
+                stroke="white"
+                stroke-width="14"
+                stroke-miterlimit="14"
+                d="M71.462,13.129
+          c32.217,0,58.334,26.116,58.334,58.333s-26.117,58.334-58.334,58.334s-58.333-26.117-58.333-58.334S39.245,13.129,71.462,13.129"
+              />
+            </svg>
+          </div>
+          <div
+            data-aos="zoom-out-left"
+            data-aos-easing="ease-in-out"
+            data-aos-once="true"
+            class="skill"
+          >
+            <svg
+              id="svg06"
+              class="zero-percent"
+              x="0px"
+              y="0px"
+              width="142.924px"
+              height="142.924px"
+              viewBox="0 0 142.924 173.924"
+              enable-background="new 0 0 142.924 142.924"
+              xml:space="preserve"
+            >
+              <text x="15" y="170" font-family="Raleway" font-size="22" fill="red">
+                JS Libraries
+              </text>
+              <text
+                x="43"
+                y="82"
+                font-family="Raleway"
+                font-size="35"
+                class="count hidden"
+                fill="white"
+              >
+                80%
+              </text>
+              <path
+                fill="none"
+                class="background"
+                stroke="#000000"
+                stroke-width="12"
+                stroke-miterlimit="14"
+                d="M71.462,13.129
+              c32.217,0,58.334,26.116,58.334,58.333s-26.117,58.334-58.334,58.334s-58.333-26.117-58.333-58.334S39.245,13.129,71.462,13.129"
+              />
+              <path
+                fill="none"
+                class="target"
+                stroke="white"
+                stroke-width="14"
+                stroke-miterlimit="14"
+                d="M71.462,13.129
+              c32.217,0,58.334,26.116,58.334,58.333s-26.117,58.334-58.334,58.334s-58.333-26.117-58.333-58.334S39.245,13.129,71.462,13.129"
+              />
+            </svg>
+      
+            <svg
+              id="svg07"
+              class="zero-percent"
+              x="0px"
+              y="0px"
+              width="142.924px"
+              height="142.924px"
+              viewBox="0 0 142.924 173.924"
+              enable-background="new 0 0 142.924 142.924"
+              xml:space="preserve"
+            >
+              <text x="30" y="170" font-family="Raleway" font-size="22" fill="red">
+                NodeJS
+              </text>
+              <text
+                x="43"
+                y="82"
+                font-family="Raleway"
+                font-size="35"
+                class="count hidden"
+                fill="white"
+              >
+                80%
+              </text>
+              <path
+                fill="none"
+                class="background"
+                stroke="#000000"
+                stroke-width="12"
+                stroke-miterlimit="14"
+                d="M71.462,13.129
+              c32.217,0,58.334,26.116,58.334,58.333s-26.117,58.334-58.334,58.334s-58.333-26.117-58.333-58.334S39.245,13.129,71.462,13.129"
+              />
+              <path
+                fill="none"
+                class="target"
+                stroke="white"
+                stroke-width="14"
+                stroke-miterlimit="14"
+                d="M71.462,13.129
+              c32.217,0,58.334,26.116,58.334,58.333s-26.117,58.334-58.334,58.334s-58.333-26.117-58.333-58.334S39.245,13.129,71.462,13.129"
+              />
+            </svg>
+      
+            <svg
+              id="svg08"
+              class="zero-percent"
+              x="0px"
+              y="0px"
+              width="142.924px"
+              height="142.924px"
+              viewBox="0 0 142.924 173.924"
+              enable-background="new 0 0 142.924 142.924"
+              xml:space="preserve"
+            >
+              <text x="15" y="170" font-family="Raleway" font-size="22" fill="red">
+                ElectronsJS
+              </text>
+              <text
+                x="43"
+                y="82"
+                font-family="Raleway"
+                font-size="35"
+                class="count hidden"
+                fill="white"
+              >
+                99%
+              </text>
+              <path
+                fill="none"
+                class="background"
+                stroke="#000000"
+                stroke-width="12"
+                stroke-miterlimit="14"
+                d="M71.462,13.129
+              c32.217,0,58.334,26.116,58.334,58.333s-26.117,58.334-58.334,58.334s-58.333-26.117-58.333-58.334S39.245,13.129,71.462,13.129"
+              />
+              <path
+                fill="none"
+                class="target"
+                stroke="white"
+                stroke-width="14"
+                stroke-miterlimit="14"
+                d="M71.462,13.129
+              c32.217,0,58.334,26.116,58.334,58.333s-26.117,58.334-58.334,58.334s-58.333-26.117-58.333-58.334S39.245,13.129,71.462,13.129"
+              />
+            </svg>
+            <svg
+              id="svg09"
+              class="zero-percent"
+              x="0px"
+              y="0px"
+              width="142.924px"
+              height="142.924px"
+              viewBox="0 0 142.924 173.924"
+              enable-background="new 0 0 142.924 142.924"
+              xml:space="preserve"
+            >
+              <text x="15" y="170" font-family="Raleway" font-size="22" fill="red">
+                Git/GitHub
+              </text>
+              <text
+                x="43"
+                y="82"
+                font-family="Raleway"
+                font-size="35"
+                class="count hidden"
+                fill="white"
+              >
+                80%
+              </text>
+              <path
+                fill="none"
+                class="background"
+                stroke="#000000"
+                stroke-width="12"
+                stroke-miterlimit="14"
+                d="M71.462,13.129
+              c32.217,0,58.334,26.116,58.334,58.333s-26.117,58.334-58.334,58.334s-58.333-26.117-58.333-58.334S39.245,13.129,71.462,13.129"
+              />
+              <path
+                fill="none"
+                class="target"
+                stroke="white"
+                stroke-width="14"
+                stroke-miterlimit="14"
+                d="M71.462,13.129
+              c32.217,0,58.334,26.116,58.334,58.333s-26.117,58.334-58.334,58.334s-58.333-26.117-58.333-58.334S39.245,13.129,71.462,13.129"
+              />
+            </svg>
+            <svg
+              id="svg10"
+              class="zero-percent"
+              x="0px"
+              y="0px"
+              width="152.924px"
+              height="142.924px"
+              viewBox="0 0 155.924 173.924"
+              enable-background="new 0 0 142.924 142.924"
+              xml:space="preserve"
+            >
+              <text x="-15" y="170" font-family="Raleway" font-size="22" fill="red">
+                PhotoShop/AE CC
+              </text>
+              <text
+                x="43"
+                y="82"
+                font-family="Raleway"
+                font-size="35"
+                class="count hidden"
+                fill="white"
+              >
+                50%
+              </text>
+              <path
+                fill="none"
+                class="background"
+                stroke="#000000"
+                stroke-width="12"
+                stroke-miterlimit="14"
+                d="M71.462,13.129
+              c32.217,0,58.334,26.116,58.334,58.333s-26.117,58.334-58.334,58.334s-58.333-26.117-58.333-58.334S39.245,13.129,71.462,13.129"
+              />
+              <path
+                fill="none"
+                class="target"
+                stroke="white"
+                stroke-width="14"
+                stroke-miterlimit="14"
+                d="M71.462,13.129
+              c32.217,0,58.334,26.116,58.334,58.333s-26.117,58.334-58.334,58.334s-58.333-26.117-58.333-58.334S39.245,13.129,71.462,13.129"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="coffe">
+        <div class="steam">
+          <img
+            src="https://theespressolab.com/wp-content/uploads/2018/09/TEL-fresh-espresso-steam.gif"
+            alt=""
+          />
+        </div>
+        <div class="imges-mid">
+          <img src="../assets/imgs/coffe.png" alt="" />
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <!-- <img
+          src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/gmail-512.png"
+          alt=""
+        /> -->
+        <img
+          src="https://i.pinimg.com/originals/41/28/2b/41282b58cf85ddaf5d28df96ed91de98.png"
+          alt=""
+        />
+      </div>
+      
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

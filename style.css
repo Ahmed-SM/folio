@@ -2,9 +2,11 @@
     font-family: "Raleway";
     src: url(./assets/Raleway/Raleway-Light.ttf) format("truetype");
 }
-html{
+
+html {
     overflow-x: hidden;
 }
+
 body {
     font-family: sans-serif;
     position: relative;
@@ -204,7 +206,7 @@ h2 {
 }
 
 .row {
-    margin-left: 5vw;
+    margin-left: 15vw;
     display: grid;
     grid-template-columns: 19% 22% 22% 22% 22%;
 }
@@ -214,9 +216,11 @@ h2 {
     margin-right: 8px;
     position: static;
 }
-.column h1{
+
+.column h1 {
     padding-bottom: 100px;
 }
+
 .column img {
     z-index: 5;
     width: 20vw;
@@ -230,16 +234,19 @@ h2 {
     -webkit-transition-duration: 2s;
     transition-property: width;
     transition-duration: 2s;
-    
+
 }
-.column img:focus{
+
+.column img:focus {
     outline: none;
 }
+
 .column img:hover {
     -webkit-filter: none;
     filter: none;
     transition: all 0.5s;
 }
+
 .column:hover {
     border-radius: 25px;
     z-index: 10;
@@ -251,7 +258,7 @@ h2 {
 }
 
 .mid {
-    height: 32rem;
+    height: 35rem;
     position: relative;
 }
 
@@ -270,29 +277,8 @@ h2 {
     font-size: 1.3rem;
 }
 
-.mid-last {
-    position: relative;
-    height: 60vh;
-    padding-bottom: 300px;
-}
-
-.mid-last h4 {
-    color: black;
-    padding: 3vw;
-    font-family: Raleway, sans-serif;
-    text-decoration: none;
-    font-weight: 100;
-    font-size: 1.3rem;
-}
 
 .mid h1 {
-    padding-top: 100px;
-    font-weight: 200;
-    font-size: 24pt;
-    color: black;
-}
-
-.mid-last h1 {
     padding-top: 100px;
     font-weight: 200;
     font-size: 24pt;
@@ -471,6 +457,15 @@ svg path {
     padding-bottom: 20px;
 }
 
+.column h1 {
+    transform: translate(0%, -70%);
+    width: 70vw;
+}
+
+.column img {
+    transform: translate(-40%, 0%) !important;
+}
+
 @media screen and (max-width: 1440px) and (min-width: 1025px) {
     .left-top {
         transform: translate(-50%, 38%);
@@ -478,17 +473,8 @@ svg path {
 }
 
 @media screen and (max-width: 1025px) {
-    .row {
-        margin-left: 5vw;
-        display: grid;
-        grid-template-columns: 14% 18% 18% 18% 18%;
-    }
-
-    .column h1 {
-        width: 50vw;
-        margin-top: 0;
-        transform: translate(0%, -70%);
-        position: relative;
+    .column {
+        width: 75%;
     }
 
     .left-top {

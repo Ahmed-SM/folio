@@ -406,7 +406,7 @@ nav {
     With this method you could even use CSS transitions to animate the percentages.
   */
   svg path {
-    transition: all 1s;
+    transition: all 2s;
   }
   .skill {
     text-align: center;

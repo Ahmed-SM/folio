@@ -11,5 +11,4 @@ $(document).scroll(() => {
     ) {
       $nav.removeClass("scrolled");
     }
-   
 });

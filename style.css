@@ -33,6 +33,9 @@ nav {
     transition: background-color 800ms linear;
     color: black;
   }
+  .title:hover{
+    font-size: 1.7rem;
+  }
   
   ul {
     display: flex;

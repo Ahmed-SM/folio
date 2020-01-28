@@ -2,6 +2,9 @@
     font-family: "Raleway";
     src: url(./assets/Raleway/Raleway-Light.ttf) format("truetype");
 }
+html{
+    overflow-x: hidden;
+}
 body {
     font-family: sans-serif;
     position: relative;

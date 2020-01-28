@@ -343,7 +343,7 @@ nav {
     stroke-dasharray: 0px 327.6px;
     stroke-dashoffset: 0%;
     stroke: #901010;
-    transition-delay: 0.5s;
+    transition-delay: 0.1s;
   }
   
   .zero-percent .background {
@@ -364,7 +364,7 @@ nav {
     stroke-dasharray: 182px 1000px;
     stroke-dashoffset: 0%;
     stroke: #901010;
-    transition-delay: 0.45s;
+    transition-delay: 0.05s;
   }
   
   .fifty-percent .background {
@@ -375,7 +375,7 @@ nav {
     stroke-dasharray: 325.8px 1000px;
     stroke-dashoffset: 0%;
     stroke: #901010;
-    transition-delay: 0.6s;
+    transition-delay: 0.2s;
   }
   
   .ninety-percent .background {
@@ -385,7 +385,7 @@ nav {
     stroke-dasharray: 362.8px 1000px;
     stroke-dashoffset: 0%;
     stroke: #901010;
-    transition-delay: 0.65s;
+    transition-delay: 0.25s;
   }
   
   .ninety-nine-percent .background {
@@ -396,7 +396,7 @@ nav {
     stroke-dasharray: 289.6px 1000px;
     stroke-dashoffset: 0%;
     stroke: #901010;
-    transition-delay: 0.5s;
+    transition-delay: 0.1s;
   }
   
   .eighty-percent .background {

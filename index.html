@@ -252,6 +252,7 @@
               font-family="Raleway"
               font-size="35"
               fill="white"
+              class="hidden"
             >
             %
             </text>
@@ -305,6 +306,7 @@
               font-family="Raleway"
               font-size="35"
               fill="white"
+              class="hidden"
             >
             %
             </text>
@@ -358,6 +360,7 @@
               font-family="Raleway"
               font-size="35"
               fill="white"
+              class="hidden"
             >
             %
             </text>
@@ -410,6 +413,7 @@
               font-family="Raleway"
               font-size="35"
               fill="white"
+              class="hidden"
             >
             %
             </text>
@@ -462,6 +466,7 @@
               font-family="Raleway"
               font-size="35"
               fill="white"
+              class="hidden"
             >
             %
             </text>
@@ -521,6 +526,7 @@
               font-family="Raleway"
               font-size="35"
               fill="white"
+              class="hidden"
             >
             %
             </text>
@@ -574,6 +580,7 @@
               font-family="Raleway"
               font-size="35"
               fill="white"
+              class="hidden"
             >
             %
             </text>
@@ -627,6 +634,7 @@
               font-family="Raleway"
               font-size="35"
               fill="white"
+              class="hidden"
             >
             %
             </text>
@@ -679,6 +687,7 @@
               font-family="Raleway"
               font-size="35"
               fill="white"
+              class="hidden"
             >
             %
             </text>
@@ -730,6 +739,7 @@
                 y="86"
                 font-family="Raleway"
                 font-size="35"
+                class="hidden"
                 fill="white"
               >
               %
@@ -835,7 +845,7 @@
     if ($(document).height() - $(window).innerHeight() - 125 * ($(document).height() / $(window).innerHeight()) < $(document).scrollTop() &&
         $svg.hasClass("zero-percent")
       ){ 
-      $("text.count").removeClass("hidden"); 
+      $("text").removeClass("hidden"); 
       $("svg").removeClass("zero-percent");
         $("#svg01").addClass("ninety-nine-percent");
         $("#svg02").addClass("ninety-percent");
@@ -848,7 +858,7 @@
         $("#svg09").addClass("eighty-percent");
         $("#svg10").addClass("fifty-percent"); 
       $("text.count").counterUp({
-        delay: 10, /* The delay in milliseconds per number count up */
+        delay: 16, /* The delay in milliseconds per number count up */
         time: 1000, /*The total duration of the count up animation */
         offset: 100, 
         /*The viewport percentile from which the counter starts (by default it's 100, meaning it's triggered at the very moment the element enters the viewport) */

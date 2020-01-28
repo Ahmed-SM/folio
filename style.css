@@ -230,10 +230,7 @@ h2 {
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     max-width: 35em;
-    -webkit-transition-property: width;
-    -webkit-transition-duration: 2s;
-    transition-property: width;
-    transition-duration: 2s;
+
 
 }
 
@@ -244,13 +241,15 @@ h2 {
 .column img:hover {
     -webkit-filter: none;
     filter: none;
-    transition: all 0.5s;
+    transition: all 2.5s;
 }
 
 .column:hover {
-    border-radius: 25px;
     z-index: 10;
-    transition: all 0.5s;
+    transition: all 2.5s;
+}
+.head{
+    height: 0px;
 }
 
 .section {

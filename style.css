@@ -298,6 +298,17 @@ h2 {
     background-color: rgba(0,0,0, 0.4); 
     transition: all 2.5s;
 }
+
+.footer-bottom a{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 2px 20px;
+    border-radius: 10px;
+    border: #fff solid 1px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13;
+}
 .footer-anim{
     background: #00A9C9;
     transition: all 0.5s;
@@ -306,6 +317,16 @@ h2 {
     background: #dddddd;
     color: #000000;
     transition: all 0.5s;
+}
+.footer-anim-white a{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 2px 20px;
+    border-radius: 10px;
+    border: #000000 solid 1px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 13;
 }
 .footer-anim-white p{
     color: #000000;

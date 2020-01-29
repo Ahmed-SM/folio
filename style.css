@@ -298,9 +298,14 @@ h2 {
     background-color: rgba(0,0,0, 0.4); 
 }
 .footer-anim{
-    background: #252421;
-    background-position: center;
-    background-attachment: fixed;
+    background: #00A9C9;
+}
+.footer-anim-white{
+    background: #dddddd;
+    color: #000000;
+}
+.footer-anim-white p{
+    color: #000000;
 }
 .footer-bottom div{
     z-index: 10;

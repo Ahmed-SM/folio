@@ -1,9 +1,9 @@
 $(window).scroll(function () {
     var yScrollPos = $(this).scrollTop();
-    var scrollPos = $(window).innerHeight() - 55;
-    if (yScrollPos > scrollPos - 900) {
+    var scrollPos = $(window).innerHeight();
+    if (yScrollPos >= 20 ) {
         $("#footer").addClass("footer-anim-white");
-        if (yScrollPos > scrollPos + 1650) {
+        if (yScrollPos >=  $("#third").offset().top -  $("#second").offset().top) {
             $("#footer").removeClass("footer-anim-white");
             $("#footer").addClass("footer-anim");
         } else {

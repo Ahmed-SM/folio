@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <nav class="topnav">
+    <nav id="nav" class="topnav">
         <h1 id="Link0" data-aos="fade-right" data-aos-once="true" data-aos-easing="ease-in-out" class="title">
             Ahmed-Saadawi</h1>
         <ul id="myLinks">
@@ -396,8 +396,7 @@
                 });
 
             });
-        }
-        else if(isIE){
+        } else if (isIE) {
             $(document).ready(function () {
                 $('#Link0').click(function () {
                     $('html').animate({
@@ -424,7 +423,6 @@
             $(document).ready(function ($) {
                 var Interval = window.setInterval(function () {
                     var $svg = $("svg");
-                    console.log("!stoped")
                     if ($(document).height() - $(window).innerHeight() - 125 * ($(document).height() /
                             $(
                                 window).innerHeight()) < $(document).scrollTop() &&
@@ -453,7 +451,6 @@
                     }
                     if (!$("svg").hasClass("zero-percent")) {
                         window.clearInterval(Interval);
-                        console.log("stoped")
                     }
                 }, 500);
             });

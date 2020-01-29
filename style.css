@@ -603,3 +603,11 @@ svg path {
         display: none;
     }
 }
+@-moz-document url-prefix() {
+    .tech-skill{
+        transform: translate(-150px, 0);
+    }
+    .tech-skill-percent{
+        transform: translate(-222px, 0);
+    }
+}

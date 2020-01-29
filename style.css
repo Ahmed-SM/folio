@@ -125,9 +125,9 @@ h2 {
 }
 
 .top {
-    background: url(./assets/imgs/back.webp);
+    background: url(./assets/imgs/5524.gif);
     width: 46%;
-    background-position: left;
+    background-position: center;
     background-attachment: fixed;
 }
 
@@ -246,8 +246,7 @@ h2 {
     z-index: 10;
     transition: all 2.5s;
 }
-
-.head {
+.head{
     height: 0px;
 }
 
@@ -499,22 +498,28 @@ svg path {
     .writing {
         grid-template-columns: auto !important;
     }
-
+ 
 }
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
     .writing {
         grid-template-columns: auto !important;
     }
 }
-
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
     .writing {
         grid-template-columns: auto !important;
     }
 }
-
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
     .writing {
         grid-template-columns: auto !important;
     }
@@ -526,42 +531,34 @@ svg path {
         display: none;
     }
 }
-
 @-moz-document url-prefix() {
-    .tech-skill {
+    .tech-skill{
         transform: translate(-150px, 0);
     }
-
-    .tech-skill-percent {
+    .tech-skill-percent{
         transform: translate(-222px, 0);
     }
 }
-
 @media screen and (min-width:0\0) and (min-resolution: +72dpi) {
 
-    .row>* {
-        float: left;
+    .row > * {
+        float: left;  
         width: 32%;
-    }
-
-    html {
-        overflow-x: hidden;
-    }
-
-    body {
+      }
+      html{
+          overflow-x: hidden;
+      }
+      body{
         overflow-y: hidden;
-    }
-
-    .mid {
-        margin-left: 4vw;
-    }
-
-    .work-text {
-        padding-top: 300px;
-    }
-
-    .work-text-text {
+      }
+      .mid{
+          margin-left: 4vw;
+      }
+      .work-text{
+          padding-top: 300px;
+      }
+      .work-text-text{
         padding-top: 360px !important;
-    }
+      }
 
 }

@@ -50,7 +50,7 @@ nav {
 ul {
     display: flex;
     justify-content: flex-end;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
 }
 
 ul h1,

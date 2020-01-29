@@ -125,9 +125,9 @@ h2 {
 }
 
 .top {
-    background: url(./assets/imgs/5524.gif);
+    background: url(./assets/imgs/back.webp);
     width: 46%;
-    background-position: center;
+    background-position: left;
     background-attachment: fixed;
 }
 

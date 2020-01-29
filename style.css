@@ -126,8 +126,8 @@ h2 {
 
 .top {
     background: url(./assets/imgs/back.gif);
-    width: 45%;
-    background-position: left;
+    width: 50%;
+    background-position: right;
     background-attachment: fixed;
 }
 

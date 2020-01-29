@@ -3,7 +3,7 @@ $(window).scroll(function () {
     var scrollPos = $(window).innerHeight();
     if (yScrollPos >= 20 ) {
         $("#footer").addClass("footer-anim-white");
-        if (yScrollPos >=  $("#third").offset().top -  $("#second").offset().top) {
+        if (yScrollPos >= 2586) {
             $("#footer").removeClass("footer-anim-white");
             $("#footer").addClass("footer-anim");
         } else {

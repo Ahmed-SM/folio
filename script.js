@@ -1,7 +1,7 @@
 $(window).scroll(function () {
     var yScrollPos = $(this).scrollTop();
     var scrollPos = $(window).innerHeight();
-    if (yScrollPos >= 20 ) {
+    if (yScrollPos >= 40 ) {
         $("#footer").addClass("footer-anim-white");
         if (yScrollPos >= 2586) {
             $("#footer").removeClass("footer-anim-white");

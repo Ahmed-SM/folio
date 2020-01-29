@@ -299,9 +299,7 @@ h2 {
 }
 .footer-bottom div{
     z-index: 10;
-}
-.footer-bottom p{
-    filter: none;
+    font-size: 13px;
 }
 .footer-bottom img {
     width: 50px;

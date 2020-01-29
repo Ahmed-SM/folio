@@ -611,3 +611,26 @@ svg path {
         transform: translate(-222px, 0);
     }
 }
+@media screen and (min-width:0\0) and (min-resolution: +72dpi) {
+
+    .row > * {
+        float: left;  
+        width: 32%;
+      }
+      html{
+          overflow-x: hidden;
+      }
+      body{
+        overflow-y: hidden;
+      }
+      .mid{
+          margin-left: 4vw;
+      }
+      .work-text{
+          padding-top: 300px;
+      }
+      .work-text-text{
+        padding-top: 360px !important;
+      }
+
+}

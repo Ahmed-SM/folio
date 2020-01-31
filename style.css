@@ -32,19 +32,16 @@ nav {
 }
 
 .scrolled li {
-    background-color: #fff !important;
-    transition: background-color 800ms linear;
     color: black;
 }
 
 .scrolled h1 {
-    background-color: #fff !important;
-    transition: background-color 800ms linear;
     color: black;
 }
 
 .title:hover {
     font-size: 1.7rem;
+    background-color: #ffffff00;
 }
 
 ul {

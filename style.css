@@ -517,6 +517,7 @@ svg path {
     .left-top {
         transform: translate(-50%, 38%);
     }
+    
 }
 
 @media screen and (max-width: 1025px) {
@@ -554,6 +555,12 @@ svg path {
     .writing {
         grid-template-columns: auto !important;
     }
+    .footer-bottom p{
+        font-size: 24px !important;
+    }
+    .info p{
+        font-size: 25px !important;
+    }
 }
 @media screen 
   and (device-width: 360px) 
@@ -562,6 +569,12 @@ svg path {
     .writing {
         grid-template-columns: auto !important;
     }
+    .footer-bottom p{
+        font-size: 24px !important;
+    }
+    .info p{
+        font-size: 25px !important;
+    }
 }
 @media screen 
   and (device-width: 360px) 
@@ -569,6 +582,12 @@ svg path {
   and (-webkit-device-pixel-ratio: 3) {
     .writing {
         grid-template-columns: auto !important;
+    }
+    .footer-bottom p{
+        font-size: 24px !important;
+    }
+    .info p{
+        font-size: 25px !important;
     }
 }
 

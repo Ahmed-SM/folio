@@ -498,6 +498,7 @@ svg path {
 }
 
 .writing-skill {
+    font-size: 19px;
     font-family: Raleway, sans-serif;
     column-span: all;
     color: #00A9C9;

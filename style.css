@@ -307,7 +307,7 @@ h2 {
     font-size: 13;
 }
 .footer-anim{
-    background: #00A9C9;
+    background: #cba135;
     transition: all 0.5s;
 }
 .footer-anim-white{
@@ -351,9 +351,8 @@ h2 {
 
 .newspaper {
     line-height: 2;
-    opacity: 0.4;
+    opacity: 0.7;
 }
-
 .newspaper>h3 {
     font-family: Raleway, sans-serif;
     column-span: all;
@@ -410,7 +409,7 @@ hr {
 .zero-percent .target {
     stroke-dasharray: 0px 327.6px;
     stroke-dashoffset: 0%;
-    stroke:   #00A9C9;
+    stroke:   #cba135;
     transition-delay: 0.1s;
 }
 
@@ -421,7 +420,7 @@ hr {
 .twenty-percent .target {
     stroke-dasharray: 72.8px 1000px;
     stroke-dashoffset: 0%;
-    stroke:#00A9C9;
+    stroke:#cba135;
 }
 
 .twenty-percent .background {
@@ -431,7 +430,7 @@ hr {
 .fifty-percent .target {
     stroke-dasharray: 182px 1000px;
     stroke-dashoffset: 0%;
-    stroke:#00A9C9;
+    stroke:#cba135;
     transition-delay: 0.05s;
 }
 
@@ -442,7 +441,7 @@ hr {
 .ninety-percent .target {
     stroke-dasharray: 325.8px 1000px;
     stroke-dashoffset: 0%;
-    stroke:#00A9C9;
+    stroke:#cba135;
     transition-delay: 0.2s;
 }
 
@@ -453,7 +452,7 @@ hr {
 .ninety-nine-percent .target {
     stroke-dasharray: 362.8px 1000px;
     stroke-dashoffset: 0%;
-    stroke:#00A9C9;
+    stroke:#cba135;
     transition-delay: 0.25s;
 }
 
@@ -464,7 +463,7 @@ hr {
 .eighty-percent .target {
     stroke-dasharray: 289.6px 1000px;
     stroke-dashoffset: 0%;
-    stroke:#00A9C9;
+    stroke:#cba135;
     transition-delay: 0.1s;
 }
 
@@ -498,7 +497,7 @@ svg path {
     font-size: 19px;
     font-family: Raleway, sans-serif;
     column-span: all;
-    color: #00A9C9;
+    color: #cba135;
     text-align: center;
     padding-bottom: 20px;
 }

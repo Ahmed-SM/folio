@@ -119,6 +119,7 @@ h2 {
 
 .main {
     height: 100vh;
+    scroll-snap-align: start;
 }
 
 .top {
@@ -139,6 +140,8 @@ h2 {
             from(rgba(0, 0, 0, 1)),
             to(rgba(0, 0, 0, 0)));
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+img{
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -249,12 +252,33 @@ h2 {
     z-index: 10;
     transition: all 2.5s;
 }
+.column img:active {
+    -webkit-filter: none;
+    filter: none;
+    transition: all 2.5s;
+}
+
+.column:active {
+    z-index: 10;
+    transition: all 2.5s;
+}
+.column img:focus {
+    -webkit-filter: none;
+    filter: none;
+    transition: all 2.5s;
+}
+
+.column:focus {
+    z-index: 10;
+    transition: all 2.5s;
+}
 .head{
     height: 0px;
 }
 
 .section {
     padding-top: 250px;
+    scroll-snap-type: y mandatory;
 }
 
 .mid {
@@ -517,7 +541,7 @@ svg path {
 }
 
 .column img {
-    transform: translate(-40%, 0%) !important;
+    transform: translate(-49%, 0%) !important;
 }
 
 @media screen and (max-width: 1440px) and (min-width: 1025px) {

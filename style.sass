@@ -1,0 +1,120 @@
+$Raleway-font-path:"./assets/Raleway"
+
+%user-select
+    -webkit-touch-callout: none
+    -webkit-user-select: none
+    -khtml-user-select: none
+    -moz-user-select: none
+    -ms-user-select: none
+    user-select: none
+%image-mask
+    -webkit-mask-image: -webkit-gradient(linear,
+            left top,
+            left bottom,
+            from(rgba(0, 0, 0, 1)),
+            to(rgba(0, 0, 0, 0)))
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))
+
+
+@font-face 
+    src: url("#{$Raleway-font-path}/Raleway-Light.ttf") format("truetype")
+    font-family: "Raleway"
+
+
+html
+    overflow-x: hidden
+
+
+body
+    position: relative
+    margin: 0
+    background: radial-gradient(white 10%, #dddddd 85%)
+    overflow-x: hidden
+
+nav 
+    width: 100vw
+    position: fixed
+    top: 0
+    z-index: 11
+
+    h1
+        @extend %user-select
+        line-height: 1.7
+        font-size: 27px
+
+        &:hover
+            font-weight: 300
+
+
+.topnav
+    a 
+        display: none
+    img
+        display: none
+
+
+.scrolled 
+    background-color: #fff !important
+    transition: background-color 100ms linear
+        li 
+            color: black
+        h1 
+            color: black
+
+.title
+    &:hover
+        font-size: 1.7rem
+        background-color: #ffffff00
+
+ul
+    display: flex
+    justify-content: flex-end
+    flex-flow: row nowrap
+
+    li
+        &:hover
+        text-shadow: 1px 1px 5px #000000
+.top
+    background: url(./assets/imgs/back.gif)
+    width: 50%
+    background-position: right
+    background-attachment: fixed
+
+    img
+        position: absolute
+        width: 30vw
+        top: 70vh
+        clip: rect(30vh, 100vw, 100vw, 0px)
+        @extend %user-select
+        @extend %image-mask
+
+.left-top
+    position: absolute
+    top: 0
+    left: 78%
+    transform: translate(-50%, 19vw)
+    text-align: center
+
+    h3
+        font-family: Raleway, sans-serif
+        text-decoration: none
+        font-weight: 200
+        color: black
+        font-size: 2rem
+        margin-bottom: 50px
+    h4
+        color: black
+        font-family: Raleway, sans-serif
+        text-decoration: none
+        font-weight: 100
+        font-size: 1.3rem
+        width: 40vw
+
+.row 
+    margin-left: 15vw
+    display: grid
+    grid-template-columns: 19% 22% 22% 22% 22%
+
+
+
+

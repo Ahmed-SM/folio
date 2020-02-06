@@ -220,7 +220,7 @@ img{
 .column {
     width: 20vw;
     margin-right: 8px;
-    position: static;
+    position: relative;
 }
 
 .column h1 {
@@ -420,7 +420,7 @@ p {
     transform: translate(-50%, -20%);
     opacity: 0.1;
     filter: drop-shadow(16px 16px 20px red) invert(75%);
-    z-index: -2;
+    z-index: 0;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;

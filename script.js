@@ -13,7 +13,7 @@ $(window).scroll(function () {
         $("#footer").removeClass("footer-anim-white");
     }
 
-    if (yScrollPos > scrollPos) {
+    if (yScrollPos > scrollPos -55) {
         var $nav = $("#nav");
         $nav.addClass("scrolled");
     } else if (
